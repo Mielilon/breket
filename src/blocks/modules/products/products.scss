@@ -1,0 +1,23 @@
+.products {
+    margin-top: 35px;
+    .content {
+        align-items: stretch;
+    }
+}
+.products__slider {
+    padding-bottom: 20px !important;
+    .product {
+        width: 100%;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 0px;
+    }
+    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: $main-color;
+    }
+    span.swiper-pagination-bullet {
+        margin-right: 15px !important;
+    }
+}

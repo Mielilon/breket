@@ -1,0 +1,71 @@
+.product {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+.product__favorites {
+    height: 14px;
+    width: 14px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg width='15' height='13' viewBox='0 0 15 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.551 1C8.40204 1 7.36735 2.89786 7.36735 2.89786C7.36735 2.89786 6.04082 1 4.18367 1C2.32653 1 1 2.30139 1 4.25348C1 8.59144 7.5 12.2667 7.5 12.2667C7.5 12.2667 14 8.95294 14 4.25348C14 2.65686 12.7 1 10.551 1Z' stroke='%23CECECE' stroke-linecap='round'/%3E%3C/svg%3E");
+    &--added {
+        background-image: url("data:image/svg+xml,%3Csvg width='15' height='13' viewBox='0 0 15 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.551 1C8.40204 1 7.36735 2.89786 7.36735 2.89786C7.36735 2.89786 6.04082 1 4.18367 1C2.32653 1 1 2.30139 1 4.25348C1 8.59144 7.5 12.2667 7.5 12.2667C7.5 12.2667 14 8.95294 14 4.25348C14 2.65686 12.7 1 10.551 1Z' stroke='%23F54082' stroke-linecap='round'/%3E%3C/svg%3E"); 
+    }
+}
+.product__img {
+   height: 90px;
+   width: auto;
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.product__label {
+    position: absolute;
+    top: 14px;
+    background-color: $second-color;
+    color: #fff;
+    border-radius: 15px;
+    padding: 4px 10px;
+    font-family: 'Gotham Pro Bold';
+    font-weight: 700;
+    font-size: 10px;
+}
+.product__price {
+    color: $second-color;
+    font-family: 'Gotham Pro Bold';
+    margin: 6px 0 3px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.product__name {
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: $dark-main-color;
+    margin: 0;
+}
+.product__manufacturer {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+.product__button-wrapper {
+    margin-top: auto;
+    display: flex;
+    width: 100%;
+}
+.product__button {
+  margin-top: 12px;
+  width: 100%;
+}
+.product__more {
+    margin-top: 20px;
+}

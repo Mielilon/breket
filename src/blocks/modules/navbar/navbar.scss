@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.08);
+}
+.navbar__item {
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: $main-color;
+    font-size: 10px;
+    line-height: 22px;
+    padding-bottom: 6px;
+    position: relative;
+    &.active {
+        color: $second-color;
+        svg .stroke-color {
+            stroke: $second-color;
+        }
+    }
+}
+.navbar__item-num {
+    position: absolute;
+    background-color: $second-color;
+    font-family: 'Gotham Pro Bold';
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 9px;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 6px;
+    right: 6px;
+}

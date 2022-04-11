@@ -1,0 +1,16 @@
+.header {
+    background: $main-color;
+}
+.header__link-icon {
+    height: 50px;
+    margin-left: 22px;
+}
+.header__link-icon.whatsapp-icon {
+    width: 26px;
+}
+.header__logo {
+    margin-right: auto;
+    img {
+        width: 27px;
+    }
+}

@@ -19,6 +19,7 @@
 .search-field {
     color: $black;
     padding-left: 50px;
+    border-color: $dark-main-color;
     &::placeholder {
         color: $main-color;
     }

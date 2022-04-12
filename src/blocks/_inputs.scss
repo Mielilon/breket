@@ -1,6 +1,6 @@
 .text-field {
     width: 100%;
-    border: 1px solid $dark-main-color;
+    border: 1px solid #C4C4C4;
     border-radius: 3px;
     color: $black;
     font: inherit;
@@ -8,4 +8,14 @@
     padding: 8px 18px;
     font-size: 12px;
     line-height: 22px;
+}
+.text-field-wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form-label {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 5px;
 }

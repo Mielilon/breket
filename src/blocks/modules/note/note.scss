@@ -1,0 +1,17 @@
+.note {
+    background-color: #F1F2F4;
+    padding: 26px 0;
+    position: relative;
+    overflow: hidden;
+    .text {
+        z-index: 2;
+        span {
+            font-family: "Gotham Pro Bold";
+        }
+    }
+}
+.note__icon {
+    position: absolute;
+    right: 0;
+    bottom: -55px;
+}
